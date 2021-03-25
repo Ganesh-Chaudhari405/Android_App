@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "506731537976",
+    "firebase_url": "https://aifd-f8fdf.firebaseio.com",
+    "project_id": "aifd-f8fdf",
+    "storage_bucket": "aifd-f8fdf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:506731537976:android:7466015cb2dc568ea268cd",
+        "android_client_info": {
+          "package_name": "ganeshiron.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "506731537976-d1g3ej4ltdvdq43d7f7q3jdb1dmgtq9f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ganeshiron.com",
+            "certificate_hash": "b775a824d8977f8e89936bac97a7c44e52dc4cd9"
+          }
+        },
+        {
+          "client_id": "506731537976-vk6bd88ofuup1v9r4m96gcc5p4o9mor8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNhb2Bkvv4lny1y2utVmECOizHrwshiCE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "506731537976-vk6bd88ofuup1v9r4m96gcc5p4o9mor8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

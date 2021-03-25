@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/content_main"
+        android:background="@color/colorPrimary" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:backgroundTint="#3F51B5"
+        app:srcCompat="@drawable/ic_mic_black_24dp" />
+
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginTop="280dp"
+        android:padding="20dp"
+        android:textColorHint="@android:color/black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginTop="120dp"
+        android:linksClickable="true"
+        android:padding="20dp"
+        android:textColorHint="@android:color/black"
+        android:textColorLink="#002A94DA"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:background="@color/colorPrimary"
+        android:paddingStart="20dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:text="@string/FRIDAY"
+        android:textColor="#FA181717"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/bsign"
+        android:layout_width="69dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_button"
+        android:linksClickable="true"
+        android:text="@string/Signup"
+        android:textColor="#D12FA3"
+        android:textColorLink="#FFFFFF"
+        app:layout_anchor="@+id/bsign"
+        app:layout_anchorGravity="start|center" />
+
+    <Button
+        android:id="@+id/blogin"
+        android:layout_width="69dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_button"
+        android:text="@string/Login"
+        android:textColor="#D12FA3" />
+
+    <TextView
+        android:id="@+id/Titletxt"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="60dp"
+        android:ellipsize="marquee"
+        android:gravity="center"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:paddingTop="10dp"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:textColor="#3F51B5"
+        android:textColorHint="#3F51B5"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/desctxt"
+        android:layout_width="match_parent"
+        android:layout_height="99dp"
+        android:layout_marginTop="450dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="30dp"
+        android:textColor="#3F51B5"
+        android:textColorHint="#3F51B5"
+        android:textColorLink="#FFFFFF" />
+
+<!--    <Button-->
+<!--        android:id="@+id/Filetxt"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="100dp"-->
+<!--        android:layout_marginTop="580dp"-->
+<!--        android:text="click here" />-->
+
+    <TextView
+        android:id="@+id/Ftxt"
+        android:layout_width="137dp"
+        android:layout_height="38dp"
+        android:layout_gravity="bottom|center"
+        android:layout_marginTop="560dp"
+
+        android:linksClickable="true"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:scrollbarDefaultDelayBeforeFade="@integer/google_play_services_version"
+        android:singleLine="true"
+        android:text="Click here.."
+        android:textSize="18sp" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
